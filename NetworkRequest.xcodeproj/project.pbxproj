@@ -14,6 +14,9 @@
 		03F40D2C1DED8A960045F45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F40D2A1DED8A960045F45F /* LaunchScreen.storyboard */; };
 		03F40D371DED8A960045F45F /* NetworkRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F40D361DED8A960045F45F /* NetworkRequestTests.swift */; };
 		03F40D421DED8A960045F45F /* NetworkRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F40D411DED8A960045F45F /* NetworkRequestUITests.swift */; };
+		03F40D511DED8AC70045F45F /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F40D501DED8AC70045F45F /* NetworkRequest.swift */; };
+		03F40D531DED9A250045F45F /* JSONParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F40D521DED9A250045F45F /* JSONParse.swift */; };
+		03F40D551DED9C890045F45F /* JSONRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F40D541DED9C890045F45F /* JSONRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		03F40D3D1DED8A960045F45F /* NetworkRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F40D411DED8A960045F45F /* NetworkRequestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestUITests.swift; sourceTree = "<group>"; };
 		03F40D431DED8A960045F45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F40D501DED8AC70045F45F /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		03F40D521DED9A250045F45F /* JSONParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParse.swift; sourceTree = "<group>"; };
+		03F40D541DED9C890045F45F /* JSONRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		03F40D201DED8A960045F45F /* NetworkRequest */ = {
 			isa = PBXGroup;
 			children = (
+				03F40D4F1DED8AA00045F45F /* networkRequest */,
 				03F40D211DED8A960045F45F /* AppDelegate.swift */,
 				03F40D231DED8A960045F45F /* ViewController.swift */,
 				03F40D251DED8A960045F45F /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				03F40D431DED8A960045F45F /* Info.plist */,
 			);
 			path = NetworkRequestUITests;
+			sourceTree = "<group>";
+		};
+		03F40D4F1DED8AA00045F45F /* networkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				03F40D501DED8AC70045F45F /* NetworkRequest.swift */,
+				03F40D521DED9A250045F45F /* JSONParse.swift */,
+				03F40D541DED9C890045F45F /* JSONRequest.swift */,
+			);
+			name = networkRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F40D241DED8A960045F45F /* ViewController.swift in Sources */,
+				03F40D511DED8AC70045F45F /* NetworkRequest.swift in Sources */,
+				03F40D551DED9C890045F45F /* JSONRequest.swift in Sources */,
 				03F40D221DED8A960045F45F /* AppDelegate.swift in Sources */,
+				03F40D531DED9A250045F45F /* JSONParse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

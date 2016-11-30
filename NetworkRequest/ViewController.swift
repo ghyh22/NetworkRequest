@@ -13,13 +13,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        JSONRequest.jsonRequest(url: "http://dev.gn100.com/interface/login", para: "", result: {
+            (data, error) in
+            if error != nil {
+                print(error!)
+            }else{
+                print(data!)
+            }
+        })
+        print("ffff")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
