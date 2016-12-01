@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        JSONRequest.jsonRequest(url: "http://dev.gn100.com/interface/login", para: "", result: {
+        JSONRequest.jsonRequest(url: "https://www.gn100.com/interface/login", para: "", result: {
             (data, error) in
             if error != nil {
                 print(error!)
